@@ -11,8 +11,7 @@ public class TimeCounter : MonoBehaviour
     public float countDownTime;
     void Start()
     {
-        counter = GetComponent<TextMeshProUGUI>();
-        countDownTime += 2; 
+        counter = GetComponent<TextMeshProUGUI>(); 
         Time.timeScale = 0;
 
 
